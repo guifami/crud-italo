@@ -2,15 +2,17 @@
 
 ## 1. Clonar o Repositório
 
+![image](https://github.com/guifami/crud-italo/assets/93688391/9d0c5818-81ae-443d-8c3f-f0abf2b48f68)
+
 Dentro do diretório de sua preferência, rodar o comando:
+
 
 `git clone <AQUI O HTTPS COPIADO>`
 
 <b>Exemplo:</b>
 <br>
-![image](https://github.com/guifami/crud-italo/assets/93688391/0ff59ed2-c12c-4898-bb39-be042d047986)
 
-![image](https://github.com/guifami/crud-italo/assets/93688391/9d0c5818-81ae-443d-8c3f-f0abf2b48f68)
+![image](https://github.com/guifami/crud-italo/assets/93688391/0ff59ed2-c12c-4898-bb39-be042d047986)
 
 ## 2. Configurar Banco de Dados
 
