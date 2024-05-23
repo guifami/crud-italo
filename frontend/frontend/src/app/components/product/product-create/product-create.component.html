@@ -1,0 +1,21 @@
+<mat-card>
+    <mat-card-title>Novo Médico</mat-card-title>
+        <form>
+            <mat-form-field>
+                <input matInput placeholder="Nome" [(ngModel)]="medico.nome" name="nome">
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput placeholder="ID Crm" [(ngModel)]="medico.idCrm" name="idcrm">
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput placeholder="Limite" [(ngModel)]="medico.limite" name="limite">
+            </mat-form-field>
+        </form>
+</mat-card>
+<button mat-raised-button (click)="createMedico()" color="primary">
+    Salvar
+</button>
+
+<button mat-raised-button (click)="cancelMedico()">
+    Cancelar
+</button>

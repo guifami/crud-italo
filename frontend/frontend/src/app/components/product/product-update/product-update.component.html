@@ -1,0 +1,20 @@
+<mat-card>
+    <mat-card-title>Alterar Médico</mat-card-title>
+        <form>
+            <mat-form-field>
+                <input matInput placeholder="Nome" name="nome" [value]="medico.nome" disabled>
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput placeholder="ID Crm" name="idcrm" [value]="medico.idCrm" disabled>
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput placeholder="Limite" name="limite" [(ngModel)]="medico.limite">
+            </mat-form-field>
+        </form>
+        <button mat-raised-button (click)="updateMedico()" color="primary">
+            Atualizar
+        </button>
+        <button mat-raised-button (click)="cancel()">
+            Cancelar
+        </button>
+</mat-card>

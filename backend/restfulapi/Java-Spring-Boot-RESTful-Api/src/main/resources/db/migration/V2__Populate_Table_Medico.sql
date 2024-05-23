@@ -1,0 +1,6 @@
+INSERT INTO MEDICO (id_crm, nome, limite) VALUES
+    (1, 'JOSE DA SILVA', 5000),
+    (2, 'MARIA HELENA', 200000),
+    (3, 'INSIRA SEU NOME', 250000),
+    (4, 'DR. JOÃO PEREIRA', 180000),
+    (5, 'DRA. CARLA MENDES', 120000);
